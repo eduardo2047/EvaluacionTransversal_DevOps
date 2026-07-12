@@ -1,6 +1,4 @@
-mkdir -p .github/workflows
-
-cat > .github/workflows/deploy.yml << 'EOF'
+'
 name: Build, Push and Deploy to Amazon EKS
 
 on:
@@ -10,7 +8,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  AWS_ACCOUNT_ID: 506701750346
+  AWS_ACCOUNT_ID: "506701750346"
   EKS_CLUSTER_NAME: devopseks
 
 jobs:
