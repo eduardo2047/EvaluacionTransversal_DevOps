@@ -1,0 +1,33 @@
+# ZIP
+*.zip
+
+# Git
+.git
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# AWS
+*.pem
+
+# Environment
+.env
+.env.*
+
+# Java
+target/
+*.class
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
