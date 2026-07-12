@@ -75,5 +75,4 @@ jobs:
       - name: Wait for Rollout
         run: |
           kubectl rollout status deployment/tienda-backend -n tienda
-          kubectl rollout status deployment/tienda-frontend -n tienda
-EOF
+          kubectl rollout status deployment/tienda-frontend -n tiendaF
